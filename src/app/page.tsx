@@ -9,7 +9,7 @@ function IconPreview(): JSX.Element {
       <h2 style={{textAlign: "center", fontSize: "35px"}}>Icons from @strapi/icons</h2>      
       <div className="icon-container">
         {iconNames.map((iconName: string) => {
-          const IconComponent: React.FC<{ width: number; height: number }> = Icons[iconName];
+          const IconComponent: React.FC<{ width: number; height: number }> = (Icons as any)[iconName as any];
           return (
             <div key={iconName} className="icon-preview">
               <IconComponent width={24} height={24} /> {/* Adjust the size as needed */}
