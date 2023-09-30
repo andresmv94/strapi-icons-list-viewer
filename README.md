@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## WITH THIS YOU CAN SEE THE STRAPI ICONS LIST TO EASIER USE 🤩🤩
+Go to: [Strapi icons list](https://strapi-icons-list-viewer.vercel.app/)
 
 ## Getting Started
 
