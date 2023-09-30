@@ -25,3 +25,13 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.icon-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  padding: 10px;
+}
+
+.icon-preview {
+  padding: 20px;
+}
